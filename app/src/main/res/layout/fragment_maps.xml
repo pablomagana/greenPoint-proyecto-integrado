@@ -1,0 +1,51 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_parent_layout"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/info_contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/route_contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:visibility="gone" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/route_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:fab_colorNormal="@color/verde"
+        app:fab_colorPressed="@color/verdeOscuro"
+        app:fab_icon="@drawable/ic_route"
+        app:layout_anchor="@id/info_contenedor"
+        app:layout_anchorGravity="right|end|top" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        app:fab_colorNormal="@android:color/white"
+        app:fab_colorPressed="@color/gris"
+        app:fab_icon="@drawable/ic_location"
+        app:layout_anchor="@id/route_button"
+        app:layout_anchorGravity="top|end" />
+
+</android.support.design.widget.CoordinatorLayout>

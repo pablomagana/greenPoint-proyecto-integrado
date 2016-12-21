@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:id="@+id/direccion_settings"
+        android:key="@string/direccion_key"
+        android:singleLine="true"
+        android:textColor="@color/grisOscuro"
+        android:title="@string/dir" />
+    <EditTextPreference
+        android:id="@+id/radio_settings"
+        android:defaultValue="200"
+        android:inputType="number"
+        android:key="@string/radio_key"
+        android:singleLine="true"
+        android:textColor="@color/grisOscuro"
+        android:title="@string/dist" />
+    <ListPreference
+        android:id="@+id/map_settings"
+        android:key="@string/map_key"
+        android:title="@string/tipoMapa"
+        android:defaultValue="1"
+        android:entries="@array/map_type_values"
+        android:entryValues="@array/map_type"/>
+</PreferenceScreen>

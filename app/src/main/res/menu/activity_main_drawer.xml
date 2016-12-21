@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/lista_papeleras"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_papelera"
+            android:icon="@drawable/ic_bin"
+            android:title="@string/papelera" />
+        <item
+            android:id="@+id/nav_organico"
+            android:icon="@drawable/ic_garbage"
+            android:title="@string/organico" />
+        <item
+            android:id="@+id/nav_carton"
+            android:icon="@drawable/ic_paper"
+            android:title="@string/carton" />
+        <item
+            android:id="@+id/nav_plastico"
+            android:icon="@drawable/ic_plastic"
+            android:title="@string/plastico" />
+        <item
+            android:id="@+id/nav_vidrio"
+            android:icon="@drawable/ic_glass"
+            android:title="@string/vidrio" />
+        <item
+            android:id="@+id/nav_aceite"
+            android:icon="@drawable/ic_oil"
+            android:title="@string/aceite" />
+        <item
+            android:id="@+id/nav_pilas"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/pilas" />
+
+    </group>
+    <group android:id="@+id/grupo_login">
+        <item
+            android:id="@+id/nav_my_closed"
+            android:icon="@drawable/ic_home_near"
+            android:title="@string/miscercanos" />
+        <item
+            android:id="@+id/nav_profile_menu"
+            android:icon="@drawable/ic_account"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"/>
+    </group>
+    <group android:id="@+id/info">
+        <item
+            android:id="@+id/nosotros"
+            android:icon="@drawable/ic_info"
+            android:title="@string/acercadenosotros"/>
+    </group>
+
+
+</menu>

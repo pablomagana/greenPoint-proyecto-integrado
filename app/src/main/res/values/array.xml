@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_contenedores">
+        <item>@string/papelera</item>
+        <item>@string/organico</item>
+        <item>@string/carton</item>
+        <item>@string/plastico</item>
+        <item>@string/vidrio</item>
+        <item>@string/aceite</item>
+        <item>@string/pilas</item>
+    </string-array>
+
+    <array name="tipo_iconos">
+        <item>@drawable/ic_bin</item>
+        <item>@drawable/ic_garbage</item>
+        <item>@drawable/ic_paper</item>
+        <item>@drawable/ic_plastic</item>
+        <item>@drawable/ic_glass</item>
+        <item>@drawable/ic_oil</item>
+        <item>@drawable/ic_battery</item>
+    </array>
+
+    <array name="tipo_marcadores">
+        <item>@drawable/marker_bin</item>
+        <item>@drawable/marker_garbage</item>
+        <item>@drawable/marker_paper</item>
+        <item>@drawable/marker_plastic</item>
+        <item>@drawable/marker_glass</item>
+        <item>@drawable/marker_oil</item>
+        <item>@drawable/marker_battery</item>
+    </array>
+
+    <string-array name="tipo_incidencia">
+        <item>@string/mal_estado</item>
+        <item>@string/ubicacion_des</item>
+        <item>@string/lleno</item>
+    </string-array>
+
+    <string-array name="map_type_values">
+        <item>@string/normal</item>
+        <item>@string/satelite</item>
+    </string-array>
+
+    <string-array name="map_type" translatable="false">
+        <item>1</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="meses">
+        <item>@string/ene</item>
+        <item>@string/feb</item>
+        <item>@string/mar</item>
+        <item>@string/may</item>
+        <item>@string/abr</item>
+        <item>@string/jun</item>
+        <item>@string/jul</item>
+        <item>@string/ago</item>
+        <item>@string/sep</item>
+        <item>@string/oct</item>
+        <item>@string/nov</item>
+        <item>@string/dic</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      google.setOnLoadCallback(drawChart);
+
+
+      function drawChart() {
+
+
+        var data = google.visualization.arrayToDataTable([
+            ["Tipo", "Cantidad", { role: "style" } ],
+            [Mensual.getNomTipoContenedor(0), Mensual.getCantidadReciclaje(0), '#BDBDBD'],
+            [Mensual.getNomTipoContenedor(1), Mensual.getCantidadReciclaje(1), '#1B5E20'],
+            [Mensual.getNomTipoContenedor(2), Mensual.getCantidadReciclaje(2), '#2196F3'],
+            [Mensual.getNomTipoContenedor(3), Mensual.getCantidadReciclaje(3), '#FFEB3B'],
+            [Mensual.getNomTipoContenedor(4), Mensual.getCantidadReciclaje(4), '#8BC34A'],
+            [Mensual.getNomTipoContenedor(5), Mensual.getCantidadReciclaje(5), '#FFC107'],
+            [Mensual.getNomTipoContenedor(6), Mensual.getCantidadReciclaje(6), '#F44336']
+        ]);
+
+        var options = {
+            bar: {groupWidth: '95%'},
+            legend: { position: 'none' },
+            title: 'Mensual ('+Mensual.getNomMes()+')',
+            hAxis: {
+                title: 'Tipo de contenedor'
+            },
+            vAxis: {
+                title: 'Cantidad (Kg)'
+            }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('column_chart'));
+	    chart.draw(data, options);
+    }
+
+    </script>
+</head>
+
+<body>
+<div id="column_chart"></div>
+</body>
+</html>

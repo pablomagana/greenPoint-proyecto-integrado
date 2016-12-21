@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryDark">@color/verdeOscuro</item>
+        <item name="colorAccent">@color/verdeOscuro</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:actionMenuTextColor">@color/negro</item>
+    </style>
+    <style name="preference_style" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/grisOscuro</item>
+    </style>
+    <style name="profile_style" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/grisOscuro</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_bin</item>
+    </style>
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <color name="negro">#000000</color>
+</resources>

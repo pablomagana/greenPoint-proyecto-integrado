@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+
+      function drawVisualization() {
+        var data = google.visualization.arrayToDataTable([
+         ['Mes',                Anual.getNomTipoContenedor(0),    Anual.getNomTipoContenedor(1),    Anual.getNomTipoContenedor(2),    Anual.getNomTipoContenedor(3),    Anual.getNomTipoContenedor(4),    Anual.getNomTipoContenedor(5),    Anual.getNomTipoContenedor(6),   'Media'],
+         [Anual.getNomMes(0),   Anual.getCantidadReciclaje(0,0),  Anual.getCantidadReciclaje(1,0),  Anual.getCantidadReciclaje(2,0),  Anual.getCantidadReciclaje(3,0),  Anual.getCantidadReciclaje(4,0),  Anual.getCantidadReciclaje(5,0),  Anual.getCantidadReciclaje(6,0),  Anual.cantidadMediaMes(0)],
+         [Anual.getNomMes(1),   Anual.getCantidadReciclaje(0,1),  Anual.getCantidadReciclaje(1,1),  Anual.getCantidadReciclaje(2,1),  Anual.getCantidadReciclaje(3,1),  Anual.getCantidadReciclaje(4,1),  Anual.getCantidadReciclaje(5,1),  Anual.getCantidadReciclaje(6,1),  Anual.cantidadMediaMes(1)],
+         [Anual.getNomMes(2),   Anual.getCantidadReciclaje(0,2),  Anual.getCantidadReciclaje(1,2),  Anual.getCantidadReciclaje(2,2),  Anual.getCantidadReciclaje(3,2),  Anual.getCantidadReciclaje(4,2),  Anual.getCantidadReciclaje(5,2),  Anual.getCantidadReciclaje(6,2),  Anual.cantidadMediaMes(2)],
+         [Anual.getNomMes(3),   Anual.getCantidadReciclaje(0,3),  Anual.getCantidadReciclaje(1,3),  Anual.getCantidadReciclaje(2,3),  Anual.getCantidadReciclaje(3,3),  Anual.getCantidadReciclaje(4,3),  Anual.getCantidadReciclaje(5,3),  Anual.getCantidadReciclaje(6,3),  Anual.cantidadMediaMes(3)],
+         [Anual.getNomMes(4),   Anual.getCantidadReciclaje(0,4),  Anual.getCantidadReciclaje(1,4),  Anual.getCantidadReciclaje(2,4),  Anual.getCantidadReciclaje(3,4),  Anual.getCantidadReciclaje(4,4),  Anual.getCantidadReciclaje(5,4),  Anual.getCantidadReciclaje(6,4),  Anual.cantidadMediaMes(4)],
+         [Anual.getNomMes(5),   Anual.getCantidadReciclaje(0,5),  Anual.getCantidadReciclaje(1,5),  Anual.getCantidadReciclaje(2,5),  Anual.getCantidadReciclaje(3,5),  Anual.getCantidadReciclaje(4,5),  Anual.getCantidadReciclaje(5,5),  Anual.getCantidadReciclaje(6,5),  Anual.cantidadMediaMes(5)],
+         [Anual.getNomMes(6),   Anual.getCantidadReciclaje(0,6),  Anual.getCantidadReciclaje(1,6),  Anual.getCantidadReciclaje(2,6),  Anual.getCantidadReciclaje(3,6),  Anual.getCantidadReciclaje(4,6),  Anual.getCantidadReciclaje(5,6),  Anual.getCantidadReciclaje(6,6),  Anual.cantidadMediaMes(6)],
+         [Anual.getNomMes(7),   Anual.getCantidadReciclaje(0,7),  Anual.getCantidadReciclaje(1,7),  Anual.getCantidadReciclaje(2,7),  Anual.getCantidadReciclaje(3,7),  Anual.getCantidadReciclaje(4,7),  Anual.getCantidadReciclaje(5,7),  Anual.getCantidadReciclaje(6,7),  Anual.cantidadMediaMes(7)],
+         [Anual.getNomMes(8),   Anual.getCantidadReciclaje(0,8),  Anual.getCantidadReciclaje(1,8),  Anual.getCantidadReciclaje(2,8),  Anual.getCantidadReciclaje(3,8),  Anual.getCantidadReciclaje(4,8),  Anual.getCantidadReciclaje(5,8),  Anual.getCantidadReciclaje(6,8),  Anual.cantidadMediaMes(8)],
+         [Anual.getNomMes(9),   Anual.getCantidadReciclaje(0,9),  Anual.getCantidadReciclaje(1,9),  Anual.getCantidadReciclaje(2,9),  Anual.getCantidadReciclaje(3,9),  Anual.getCantidadReciclaje(4,9),  Anual.getCantidadReciclaje(5,9),  Anual.getCantidadReciclaje(6,9),  Anual.cantidadMediaMes(9)],
+         [Anual.getNomMes(10),  Anual.getCantidadReciclaje(0,10), Anual.getCantidadReciclaje(1,10), Anual.getCantidadReciclaje(2,10), Anual.getCantidadReciclaje(3,10), Anual.getCantidadReciclaje(4,10), Anual.getCantidadReciclaje(5,10), Anual.getCantidadReciclaje(6,10), Anual.cantidadMediaMes(10)],
+         [Anual.getNomMes(11),  Anual.getCantidadReciclaje(0,11), Anual.getCantidadReciclaje(1,11), Anual.getCantidadReciclaje(2,11), Anual.getCantidadReciclaje(3,11), Anual.getCantidadReciclaje(4,11), Anual.getCantidadReciclaje(5,11), Anual.getCantidadReciclaje(6,11), Anual.cantidadMediaMes(11)]
+      ]);
+
+    var options = {
+      title : 'Anual',
+      vAxis: {title: 'Cantidad (Kg)'},
+      hAxis: {title: 'Tipos de contenedores'},
+      seriesType: 'bars',
+      colors: ['#BDBDBD', '#1B5E20', '#2196F3', '#FFEB3B', '#8BC34A', '#FFC107', '#F44336', '#9C27B0'],
+      legend: { position: 'none' },
+      series: {7: {type: 'line'}}
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('combo_div'));
+    chart.draw(data, options);
+  }
+    </script>
+</head>
+<body>
+<div id="combo_div"></div>
+</body>
+</html>

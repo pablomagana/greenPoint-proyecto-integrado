@@ -1,0 +1,37 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      google.setOnLoadCallback(drawChart);
+
+
+      function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'ITEM');
+      data.addColumn('number', 'VALUE');
+      data.addRows([
+					[Semanal.getNomTipoContenedor(0), Semanal.getCantidadReciclaje(0)],
+					[Semanal.getNomTipoContenedor(1), Semanal.getCantidadReciclaje(1)],
+					[Semanal.getNomTipoContenedor(2), Semanal.getCantidadReciclaje(2)],
+					[Semanal.getNomTipoContenedor(3), Semanal.getCantidadReciclaje(3)],
+					[Semanal.getNomTipoContenedor(4), Semanal.getCantidadReciclaje(4)],
+					[Semanal.getNomTipoContenedor(5), Semanal.getCantidadReciclaje(5)],
+					[Semanal.getNomTipoContenedor(6), Semanal.getCantidadReciclaje(6)]
+		]);
+
+      var options = {'title': "Semanal",
+                    colors: ['#BDBDBD', '#1B5E20', '#2196F3', '#FFEB3B', '#8BC34A', '#FFC107', '#F44336']};
+
+      var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
+	 chart.draw(data, options);
+    }
+    </script>
+</head>
+
+<body>
+<div id="pie_chart" ></div>
+</body>
+</html>

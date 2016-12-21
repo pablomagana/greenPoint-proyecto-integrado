@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="GreenPointTheme.button" parent="android:Widget.Button">
+        <item name="android:buttonStyle">@style/GreenPointTheme.button</item>
+
+        <item name="android:textSize">14dp</item>
+
+        <item name="android:colorBackground">#FFFFFF</item>
+
+        <item name="android:shadowColor">#FF000000</item>
+
+        <item name="android:textColor">#FF000000</item>
+
+        <item name="android:shadowDx">-1</item>
+
+        <item name="android:shadowDy">-1</item>
+
+        <item name="android:shadowRadius">0.9</item>
+
+    </style>
+</resources>

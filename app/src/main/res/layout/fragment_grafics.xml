@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="com.app.greenpoint.GraficsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.app.greenpoint.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content" />
+
+        <com.app.greenpoint.charts.ColumnChart
+            android:id="@+id/column_chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.app.greenpoint.charts.ComboChart
+            android:id="@+id/combo_chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

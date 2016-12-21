@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Greenpointer</string>
+
+    <string name="papelera">Papelera</string>
+    <string name="organico">Orgánico</string>
+    <string name="carton">Carton</string>
+    <string name="plastico">Plástico</string>
+    <string name="vidrio">Vidrio</string>
+    <string name="aceite">Aceite</string>
+    <string name="pilas">Pilas</string>
+    <string name="gps_disabled">Ubicación GPS Desactivada. \n ¿Activar ubicación?</string>
+    <string name="cargando">Cargando información…</string>
+    <!-- Log in activity -->
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Regístrate</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Correoelectronico">Correo electronico</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="yaestoyregistrado">Ya tengo una cuenta</string>
+    <string name="salir">Cerrar sesión</string>
+    <string name="no_comentario">No hay ningún comentario</string>
+    <string name="user_preference_name" translatable="false">userName</string>
+    <string name="user_preference_mail" translatable="false">userMail</string>
+    <string name="user_preference_key" translatable="false">userKey</string>
+    <string name="user_preference_login" translatable="false">userLogin</string>
+    <string name="user_preference" translatable="false">user_preferences</string>
+    <string name="guest_user">Usuario invitado</string>
+    <string name="internet_disabled">Sin conexion a internet.\n Debes estar conectado para descargar Contenedores</string>
+    <string name="comentario">Nuevo comentario</string>
+    <string name="alerta">Nueva incidencia</string>
+    <string name="dir">Dirección</string>
+    <string name="direccion_key" translatable="false">settingsDireccion</string>
+    <string name="dist">Radio de busqueda (m)</string>
+    <string name="radio_key" translatable="false">settingsRadio</string>
+    <string name="map_key">settingsMapType</string>
+    <string name="tipoMapa">Tipo de mapa</string>
+    <string name="normal">Normal</string>
+    <string name="satelite">Satélite</string>
+    <string name="hibrido">Híbrido</string>
+    <string name="settings">Ajustes</string>
+    <string name="settings_preference" translatable="false">settings_preference</string>
+    <string name="desc_radio">Buscar contenedores en un radio de </string>
+    <string name="register_ok">Registrado con éxito</string>
+    <string name="register_err">Ha ocurrido un error al registrar tus datos</string>
+    <string name="login_ok">Sesión iniciada con éxito</string>
+    <string name="login_err">No se ha podido iniciar sesión</string>
+    <string name="nuevocomentario">Nuevo comentario</string>
+    <string name="comentar">Publicar comentario</string>
+    <string name="escribecomentario">Escribe tu comentario</string>
+    <string name="descripcion">Descripción de la incidencia</string>
+    <string name="mal_estado">Contenedor en mal estado</string>
+    <string name="ubicacion_des">Ubicación desconocida</string>
+    <string name="lleno">Contenedor lleno</string>
+    <string name="titulocomentario">Título del comentario</string>
+    <string name="boton_pass">Cambiar contraseña</string>
+    <string name="perfil">Perfil</string>
+    <string name="no_marcadores">No tienes ningun marcador</string>
+    <string name="alerta_ok">Incidencia enviada correctamente</string>
+    <string name="alerta_cancel">Error al enviar la incidencia</string>
+    <string name="necesita_registro">Necesitas estar registrado para agregar marcadores</string>
+    <string name="place_contenedor">Contenedor en</string>
+    <string name="add_marcador">añadido a mis marcadores</string>
+    <string name="delete_marcador">Eliminado de mis marcadores</string>
+    <string name="campos_necesarios">Los campos de contraseña y email son necesarios</string>
+    <string name="cerrarsesion">Cerrar Sesión</string>
+    <string name="cambiarpassword">Cambiar Contraseña</string>
+    <string name="miscercanos">Mis cercanos</string>
+    <string name="faltadireccion">Falta definir tu direccion en las preferencias</string>
+    <string name="oldpass">Contraseña antigua</string>
+    <string name="newpass">Contraseña nueva</string>
+    <string name="reNewPass">Confirmar Contraseña</string>
+    <string name="passchangesuccess">La contraseña se ha modificado con exito</string>
+    <string name="errorchangepass">Error al modificar la contraseña</string>
+    <string name="errorpassinputs">Error. Revisa los campos</string>
+    <string name="menu">menuoverflow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_result">No se han encontrado contenedores, aumenta el radio de busqueda en los ajustes para obtener resultados</string>
+    <string name="pick_image_intent_text">Seleccionar una imagen</string>
+    <string name="user_preference_image" translatable="false">ImagePreference</string>
+    <string name="image_ko">Error al cambiar la imagen</string>
+    <string name="ene">Enero</string>
+    <string name="feb">Febrero</string>
+    <string name="mar">Marzo</string>
+    <string name="may">Mayo</string>
+    <string name="abr">Abril</string>
+    <string name="jun">Junio</string>
+    <string name="jul">Julio</string>
+    <string name="ago">Agosto</string>
+    <string name="sep">Septiempre</string>
+    <string name="oct">Octubre</string>
+    <string name="nov">Noviembre</string>
+    <string name="dic">Diciembre</string>
+    <string name="molona1">Tierra: -Gracias por ayudarme</string>
+    <string name="molona2">Gracias por darme de comer</string>
+    <string name="molon3">Invirtiendo deshielo de casquetes polares : +1%</string>
+    <string name="molona4">El planeta entero te agradece tu gesto</string>
+    <string name="molona5">Alerta: Contaminación atmosferica disminuyendo</string>
+    <string name="molona6">Iep gente, reciclando?</string>
+    <string name="acercadenosotros">Acerca de nosotros</string>
+</resources>

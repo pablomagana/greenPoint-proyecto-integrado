@@ -1,0 +1,67 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/correoet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:hint="@string/Correoelectronico"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/verde"
+            android:textColorHint="@color/gris" />
+
+        <EditText
+            android:id="@+id/nombreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="@string/Nombre"
+            android:inputType="textCapSentences"
+            android:textColor="@color/verdeOscuro"
+            android:textColorHint="@color/gris" />
+
+        <EditText
+            android:id="@+id/contrasenaet"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="@string/Contrasena"
+            android:inputType="textPassword"
+            android:textColor="@color/verde"
+            android:textColorHint="@color/gris" />
+
+        <Button
+            android:id="@+id/registrarbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_selector"
+            android:text="@string/registrarse" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tengoregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="@string/yaestoyregistrado"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gris" />
+
+</android.support.design.widget.CoordinatorLayout>
